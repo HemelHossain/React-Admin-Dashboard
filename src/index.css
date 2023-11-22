@@ -12,3 +12,13 @@
     box-shadow: 2px 4px 10px 1px hsla(0,0%,79%,.47);
 
 }
+.placeholder::placeholder {
+    font-size: 6px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

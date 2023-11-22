@@ -13,8 +13,8 @@ const AreaCharts = ({height}) => {
     return (
         <div className={`box-shadow rounded-md dark:shadow-none dark:bg-gray-800 dark:text-white`}>
             <div className='text-gray-500 dark:text-white pt-3 ml-5'>Last 6 Months Sales & Revenue</div>
-            <ResponsiveContainer width='100%' height={height}>
-                <AreaChart height={250} data={data}
+            <ResponsiveContainer className='overflow-hidden overflow-x-auto' height={height}>
+                <AreaChart height={260} data={data}
                     margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
                     <defs>
                         <linearGradient id="total" x1="0" y1="0" x2="0" y2="1">

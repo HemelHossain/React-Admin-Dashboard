@@ -20,7 +20,7 @@ const GeoCharts = () => {
         textColor: darkMode ? "#fff" : "#000"
       };
     return (
-        <div className={`box-shadow dark:shadow-none mx-auto md:mt-0 mt-6`}>
+        <div className={`box-shadow w-[100%] dark:shadow-none mx-auto md:mt-0 mt-6`}>
             <Chart
       chartEvents={[
         {

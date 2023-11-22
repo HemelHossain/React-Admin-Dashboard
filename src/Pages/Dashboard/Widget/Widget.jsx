@@ -5,7 +5,7 @@ import { MdOutlinePerson, MdOutlineShoppingCart, MdOutlineMonetizationOn, MdOutl
 
 const Widget = () => {
     return (
-        <div className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-6 my-6 mx-[4%] dark:text-white'>
+        <div className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-6 my-6 dark:text-white'>
             <div className='flex items-center justify-between dark:bg-gray-800 dark:shadow-none box-shadow-ii rounded-lg p-2 px-4'>
                 <div>
                     <p className='text-md font-bold text-gray-400 dark:text-white'>USERS</p>

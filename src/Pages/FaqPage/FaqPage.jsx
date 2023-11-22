@@ -50,7 +50,7 @@ const FaqPage = () => {
                         className="cursor-pointer flex justify-between items-center bg-white dark:bg-gray-800 dark:border-gray-500 dark:border p-4"
                         onClick={() => toggleOpen(index)}
                     >
-                        <h2 className="text-lg font-semibold">{faq.question}</h2>
+                        <h2 className="text-lg xs:text-xs font-semibold">{faq.question}</h2>
                         <span className={`ml-2 ${openIndex === index ? 'transform rotate-180' : ''}`}>
                             &#9660;
                         </span>
@@ -59,7 +59,7 @@ const FaqPage = () => {
                         className={`overflow-hidden ${openIndex === index ? 'max-h-screen transition-all duration-700' : 'max-h-0 transition-all duration-300'
                             }`}
                     >
-                        <p className="p-4">{faq.answer}</p>
+                        <p className="p-4 xs:text-xs">{faq.answer}</p>
                     </div>
                 </div>
             ))}

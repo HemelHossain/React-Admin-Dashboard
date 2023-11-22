@@ -11,7 +11,7 @@ const Main = () => {
         <div className={`${darkMode ? 'dark' : ''} font-Nunito`}>
             <div className='flex dark:bg-gray-900'>
                 <SideBar />
-                <div className='flex-1 font-Nunito md:ml-0 sm:ml-[10%] ml-[20%] dark:bg-gray-900'>
+                <div className='flex-1 font-Nunito dark:bg-gray-900'>
                     <Header></Header>
 
                     {/* Main Content  */}
