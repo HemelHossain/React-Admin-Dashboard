@@ -9,7 +9,7 @@ const SideBar = () => {
     const { isSideBarOpen, toggleSideBar } = useContext(AuthContext)
 
     return (
-        <div className={`min-h-screen ${isSideBarOpen ? 'w-52 p-[2%]' : 'w-16 p-[2%]'} dark:bg-gray-800 text-black dark:text-white border-r dark:border-gray-500 duration-300 text-xs`}>
+        <div className={`min-h-screen  p-[2%] dark:bg-gray-800 text-black dark:text-white border-r dark:border-gray-500 duration-300 text-xs`}>
             <div className={`flex items-center ${isSideBarOpen ? 'justify-between' : 'justify-center'}`}>
                 <span className={`${isSideBarOpen ? '' : 'hidden'}`}> Admin </span> <HiMenuAlt3 onClick={() => { toggleSideBar() }} size={20} />
             </div>

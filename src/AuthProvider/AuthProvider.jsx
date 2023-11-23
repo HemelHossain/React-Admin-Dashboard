@@ -3,7 +3,7 @@ import React, { createContext, useState } from 'react';
 export const AuthContext = createContext();
 const AuthProvider = ({children}) => {
     const [darkMode, setDarkMode] = useState(false);
-    const [isSideBarOpen, setSideBarOpen] = useState(false);
+    const [isSideBarOpen, setSideBarOpen] = useState(true);
     
     const toggleSideBar = () => {
         setSideBarOpen(!isSideBarOpen);
